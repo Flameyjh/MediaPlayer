@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".MediaRecordActivity" />
         <activity android:name=".VideoActivity" />
+        <activity android:name=".VideoViewActivity" />
     </application>
 
 </manifest>
