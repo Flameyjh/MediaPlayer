@@ -26,5 +26,7 @@ class MainActivity : AppCompatActivity() {
     fun playVideo(view: View) {
         startActivity(Intent(this, VideoViewActivity::class.java))
     }
-    fun playAudio(view: View) {}
+    fun playAudio(view: View) {
+        startActivity(Intent(this, SoundActivity::class.java))
+    }
 }
