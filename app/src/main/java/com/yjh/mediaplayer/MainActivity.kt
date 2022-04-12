@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
     fun record(view: View) {
         startActivity(Intent(this, MediaRecordActivity::class.java))
     }
-    fun playVideo(view: View) {}
+    fun playVideo(view: View) {
+        startActivity(Intent(this, VideoActivity::class.java))
+    }
     fun playAudio(view: View) {}
 }

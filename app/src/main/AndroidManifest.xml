@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yjh.mediaplayer">
-
-<!--    录制音频权限-->
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-<!--    录制视频权限-->
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- 录制音频权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 录制视频权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MediaRecordActivity"/>
+        <activity android:name=".MediaRecordActivity" />
+        <activity android:name=".VideoActivity" />
     </application>
 
 </manifest>

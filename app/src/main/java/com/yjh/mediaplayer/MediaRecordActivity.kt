@@ -1,5 +1,9 @@
 package com.yjh.mediaplayer
 
+/*
+* MediaRecorder视频录制
+* */
+
 import android.hardware.Camera
 import android.media.MediaRecorder
 import android.os.Bundle
